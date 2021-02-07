@@ -1,0 +1,90 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #A07855FF;
+  overflow: hidden;
+}
+.paper {
+  position: absolute;
+  height: 46.4vw;
+  width: 40vw;
+  background: rgba(255,255,255,0.9);
+  transform: translate(35vw, -20vw);
+  
+
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  transform: translate(2.3vw, 0vw);
+  height: 46.4vw;
+  width: 0.1vw;
+  background: rgba(255,0,0,0.4);
+}
+
+.paper::after {
+  content: '';
+  position: absolute;
+  transform: translate(0vw, 4vw);
+  height: 0.05vw;
+  width: 40vw;
+  background: steelblue;
+  opacity: 50%;
+}
+
+.text {
+  position: absolute;
+  top: 5vw;
+  left: 5.5vw;
+  bottom: 1.0vw;
+  right: 1.0vw;
+  line-height: 1.4vw;
+  font-family: 'Work Sans' , sans-serif;
+  overflow: hidden;
+  outline: none;
+  font-style:oblique
+}
+.holes {
+  position: absolute;
+  left: 10px;
+  height: 25px;
+  width: 25px;
+  background:  #A07855FF;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 2px 0px #888;
+}
+
+.hole-top {
+  top: 10%;
+}
+.hole-middle {
+  top: 50%;
+}
+.hole-bottom {
+  bottom: 10%;
+}
+
+.text-2 {
+  color: white;
+  font-family: 'Work Sans' , sans-serif;
+  font-size: 3vw;
+  transform: translate(4vw, 0vw);
+}
+
+.monkey {
+  transform: translate(85vw, 18vw);
+  border: none;
+  outline: none;
+}
+
+  .burny {
+    outline: none;
+    overflow: hidden;
+    border: none;
+    height: 46.4vw;
+    width: 40vw;
+    transform: translate(35vw, -20.3vw);
+  }
+
+ 
